@@ -7,18 +7,6 @@ def take_a_number (katz_deli, name)
 end
 
 
-number = []
-count = 1
-
-def take_a_number (count)
-  number << count
-  message = "Welcome. You are number #{number} in line".
-  count += 1
-  puts message
-end
-  
-
-
 def line (katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
