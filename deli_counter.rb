@@ -6,7 +6,7 @@ def take_a_number (katz_deli, name)
     puts message
 end
 
--------------------
+
 number = []
 count = 1
 
@@ -17,7 +17,7 @@ def take_a_number (count)
   puts message
 end
   
--------------------
+
 
 def line (katz_deli)
   if katz_deli.length == 0
