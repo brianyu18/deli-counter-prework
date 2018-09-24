@@ -10,8 +10,8 @@ end
 number = []
 count = 1
 
-def take_a_number (count, number)
-  count << number
+def take_a_number (count)
+  number << count
   message = "Welcome. You are number #{number} in line".
   count += 1
   puts message
